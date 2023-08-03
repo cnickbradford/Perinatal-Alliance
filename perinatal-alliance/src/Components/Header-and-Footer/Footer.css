@@ -1,0 +1,16 @@
+.footer{
+    position: absolute;
+    height: 78px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(80, 144, 229);
+}
+
+.footer-title{
+    font-family: "Montserrat", arial, sans-serif;;
+}

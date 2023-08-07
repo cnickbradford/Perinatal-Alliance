@@ -6,6 +6,8 @@ import AboutPage from "./Components/About/AboutPage";
 import FAQPage from "./Components/FAQ/FAQPage";
 import ContactPage from "./Components/Contact/ContactPage";
 import Footer from "./Components/Header-and-Footer/Footer";
+import LoginPage from "./Components/Login/LoginPage";
+import CreateAccountPage from "./Components/CreateAccount/CreateAccountPage";
 import "./App.css";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/FAQ" element={<FAQPage />} />
+            <Route path="/login" element={<LoginPage/>} />
+            <Route path="/create-account" element={<CreateAccountPage/>} />
           </Routes>
         </div>
         <Footer />

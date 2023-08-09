@@ -1,4 +1,14 @@
-.body{
-    position: relative;
-    top: 78px;
+html, body {
+  height: 100%;
+  margin: 0;
+  /* overflow: hidden; This prevents the default body scrolling */
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto; 
+  flex: 1;/* This enables scrolling for the main content area */
+}
+

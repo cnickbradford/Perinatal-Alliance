@@ -1,0 +1,120 @@
+.contact-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 87vh;
+  flex: 1;
+  
+}
+
+.contact-page-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    top: 120px;
+    left: 10px;
+    font-family: "Archivo Black", arial, sans-serif;
+    text-transform:uppercase;
+    color: rgb(27, 27, 27);
+    text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 0px;
+    text-align: center;
+
+}
+
+.contact-page-content-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Montserrat", arial, sans-serif;
+    height: 582px;
+    position: relative;
+    top: 100px;
+    display: grid;
+    columns: 2;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-page-form-container{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+     position: relative;
+}
+
+
+
+.contact-form-header{
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    font-weight: 400;
+    letter-spacing: 0.125em;
+    line-height: 1.25;
+}
+
+
+.contact-form-input{
+    width: 95%;
+    height: 49px;
+    background-color:  rgba(246,246,246,255);
+    margin-bottom: 20px;
+    border: none;
+}
+
+
+
+.contact-form-btn{
+    width: 95%;
+    font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    height: 56px;
+    background-color: rgb(80, 144, 229);
+    color: rgb(255, 255, 255);
+    box-shadow:  rgba(0, 0, 0, 0.2) 5px 5px 0px;
+    border: none;
+}
+
+.contact-form-message{
+    width: 95%;
+    height: 172px;
+    background-color:  rgba(246,246,246,255);
+    margin-bottom: 20px;
+    border: none;
+    font-family: "Montserrat", arial, sans-serif;
+}
+
+.contact-page-content-text{
+    line-height: 1.5;
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 18px;
+}
+
+.contact-link:link, .contact-link:visited, .contact-link:active{
+  color: rgb(56, 119, 201);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-link:hover {
+color: rgb(37, 71, 117);  
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.hours-header{
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}

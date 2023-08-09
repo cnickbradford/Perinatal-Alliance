@@ -10,25 +10,24 @@ import LoginPage from "./Components/Login/LoginPage";
 import CreateAccountPage from "./Components/CreateAccount/CreateAccountPage";
 import "./App.css";
 
+
 function App() {
   return (
     <Router>
-      <>
-        <div>
-          <Header />
-        </div>
-        <div className="body">
+      <div className="app-container">
+        <Header />
+        <div className="main-content">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/FAQ" element={<FAQPage />} />
-            <Route path="/login" element={<LoginPage/>} />
-            <Route path="/create-account" element={<CreateAccountPage/>} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/create-account" element={<CreateAccountPage />} />
           </Routes>
         </div>
         <Footer />
-      </>
+      </div>
     </Router>
   );
 }

@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: rgba(232,234,237,255);
+  background-color: rgba(232,234,237,0.9);
   z-index: 1;
 }
 

@@ -26,7 +26,6 @@ function App() {
             <Route path="/create-account" element={<CreateAccountPage />} />
           </Routes>
         </div>
-        <Footer />
       </div>
     </Router>
   );

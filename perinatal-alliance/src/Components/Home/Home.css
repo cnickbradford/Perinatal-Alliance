@@ -170,13 +170,14 @@
   width: 100%;
   height: 270px;
   background-color: transparent;
-  overflow: hidden;
+  margin-top: 50px;
 }
 
 .reviews-img{
   width: 100%;
-  height: 100%;
+  height: 270px;
   object-fit: cover;
+  filter: brightness(0.7);
 }
 
 .review-header{
@@ -193,18 +194,57 @@
 }
 
 .reviews-coming-soon-container{
-  width: 66.6667%;
+  min-width: 40%;
+  min-height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(22, 22, 22, 0.5);
-  height: 65px;
-  width: 725px;
   margin-bottom: 50px;
   position: relative;
-  bottom: 60px;
+  bottom: 100px;
 }
 
 .reviews-coming-soon-text{
   color: white;
+}
+
+.subscribe-container{
+  width: 100%;
+  height: 176px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.subscribe-title{
+  font-size: 28px;
+  color:rgb(80, 144, 229) ;
+  text-transform: uppercase;
+  line-height: 1.25;
+  font-family: "Archivo Black", arial, sans-serif;
+}
+
+.subscribe-input{
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+  width: 740px;
+  height: 56px;
+  border-style: none;
+  background-color: rgb(246, 246, 246);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.subscribe-btn{
+  background-color: rgb(80, 144, 229);
+  color: rgb(255, 255, 255);
+  box-shadow:  rgba(0, 0, 0, 0.2) 5px 5px 0px;
+  border: none;
+  font-family: "Montserrat", arial, sans-serif;
+  text-transform: uppercase;
+  width: 137px;
+  height: 56px;
 }

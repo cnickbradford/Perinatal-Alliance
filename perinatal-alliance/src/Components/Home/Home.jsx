@@ -87,6 +87,12 @@ const Home = () => {
         </div>
           <OnlineAppointments />
           <ContactPage />
+          <div className="subscribe-container" >
+            <h3 className="subscribe-title">Subscribe</h3>
+            <input type="text" placeholder="Email" className="subscribe-input" />
+            <button className="subscribe-btn">Sign up</button>
+
+          </div>
         <Footer />
       </div>
     </>

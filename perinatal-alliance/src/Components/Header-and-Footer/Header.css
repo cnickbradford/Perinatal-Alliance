@@ -38,7 +38,7 @@
 
 /* Container for the header icon  */
 .header-icon {
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 35px;
   cursor: pointer;
@@ -133,5 +133,53 @@ max-width: 100%;
 
 }
 
+/* mobile styles */
+
+/* Adjustments for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .header-title {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .header-nav {
+    margin-top: 20px;
+  }
+
+  .header-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-list-item {
+    margin: 5px;
+  }
+
+  .header-icon {
+    display: none;
+  }
+
+  .login-menu {
+    right: 10px;
+    width: 180px;
+    height: auto;
+  }
+
+  .login-menu-list-item {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  a.title-link {
+    font-size: 24px !important;
+  }
+}
 
 

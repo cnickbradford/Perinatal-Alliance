@@ -118,3 +118,42 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 25px;
 }
+
+
+
+/* Adjustments for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .contact-page-container {
+      padding-top: 50px; /* Add some top padding for better spacing */
+      height: auto;
+      margin-top: 150px;
+    }
+  
+    .contact-page-title-container {
+      top: 40px; /* Adjust the top position */
+    }
+  
+    .contact-page-content-container {
+      width: 90%; /* Adjust the width for smaller screens */
+      grid-template-columns: 1fr; /* Single column layout */
+      gap: 20px; /* Add some gap between items */
+      position: static; /* Remove the relative position */
+      top: 0; /* Remove the top position */
+    }
+  
+    .contact-page-form-container {
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .contact-form-input,
+    .contact-form-message,
+    .contact-form-btn {
+      width: 100%; /* Full width on small screens */
+    }
+  
+    .contact-page-content-text {
+      font-size: 16px; /* Adjust font size */
+    }
+  }
+  

@@ -55,46 +55,6 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <div className="header-icon">
-        <i
-          className="material-icons"
-          style={{ color: "#4e85ce" }}
-          onClick={handleLoginMenu}
-        >
-          account_circle
-        </i>
-        {loginMenu ? (
-          <div ref={menuRef} className="login-menu">
-            <ul className="login-menu-list">
-              <li className="login-menu-list-item">
-                <span>
-                  <Link
-                    to="/login"
-                    onClick={(event) => {
-                      handleLoginMenu();
-                    }}
-                  >
-                    Sign In
-                  </Link>
-                </span>
-              </li>
-
-              <li className="login-menu-list-item">
-                <span>
-                  <Link
-                    to="/create-account"
-                    onClick={(event) => {
-                      handleLoginMenu();
-                    }}
-                  >
-                    Create Account
-                  </Link>
-                </span>
-              </li>
-            </ul>
-          </div>
-        ) : null}
-      </div>
     </>
   );
 };

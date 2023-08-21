@@ -6,6 +6,7 @@ import Footer from "../Header-and-Footer/Footer";
 import OnlineAppointments from "./OnlineAppointments";
 import { Link } from "react-router-dom";
 import ContactPage from "../Contact/ContactPage";
+import Screenshot from "../../images/Picture-from-video.png";
 import "./Home.css";
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
           <div className="learn-more-btn-text">
             TELEHEALTH MATERNAL FETAL MEDICINE SERVICES
           </div>
-          <button className="learn-more-btn">LEARN MORE</button>
+          <button className="learn-more-btn"> <Link to="faq">LEARN MORE</Link></button>
         </div>
       </div>
       <div className="home-content-container">
@@ -66,7 +67,9 @@ const Home = () => {
           </div>
 
           <div className="home-content-cell">
-            <div className="home-content-item"></div>
+            <div className="home-content-item">
+              <img src={Screenshot} alt="img" className="screenshot-img" />
+            </div>
             <div className="home-content-words">
               <h4 className="home-content-header">
                 Embrace the Future of Maternal Fetal Medicine
@@ -85,14 +88,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-          <OnlineAppointments />
           <ContactPage />
-          <div className="subscribe-container" >
-            <h3 className="subscribe-title">Subscribe</h3>
-            <input type="text" placeholder="Email" className="subscribe-input" />
-            <button className="subscribe-btn">Sign up</button>
-
-          </div>
         <Footer />
       </div>
     </>

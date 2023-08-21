@@ -23,13 +23,6 @@ const AboutPage = () => {
       </span>
     </p>
   </div>
-  <div className="reviews-container">
-    <img src={labcoat} alt="labcoat and desk" className="review-img"/>
-    <h2 className="aboutpage-review-header">reviews</h2>
-    <div className="aboutpage-review-container">
-       <span className="aboutpage-review-text">Reviews coming soon!</span>
-    </div>
-  </div>
     <Footer/>
   </div> 
   </>
